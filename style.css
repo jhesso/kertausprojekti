@@ -1,0 +1,95 @@
+/* variables */
+:root {
+	--main-font: Roboto;
+	
+	/* colors */
+	--dark-bg: #303446;
+	--dark-text: #c6d0f5;
+	--dark-header-footer: #737994;
+	--darker-header-footer: #232634;
+	--dark-button-background: #414559;
+	--dark-red: #e78284;
+	--dark-peach: #ef9f76;
+	--dark-subtext: rgba(165, 173, 206, .3);
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--darker-header-footer);
+	margin-top: 0px;
+	padding: 10px 20px 10px 20px;
+}
+
+header a {
+	text-decoration: none;
+	color: var(--dark-text);
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#add_item {
+	color: var(--dark-subtext);
+	font-size: 30px;
+}
+
+body {
+	margin: 0;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 20px;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	color: var(--dark-text);
+	background: var(--dark-bg);
+}
+
+#otsikot {
+	display: flex;
+	justify-content: space-around;
+	background-color: var(--dark-header-footer);
+	color: var(--dark-bg);
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+button {
+	height: 40px;
+	width: 100px;
+	font-size: 20px;
+	background-color: var(--dark-button-background);
+	color: var(--dark-red);
+	border: solid var(--dark-peach) 1px;
+	border-radius: 10px;
+}
+
+.btn {
+	height: 40px;
+	width: 250px;
+	font-size: 20px;
+	background-color: var(--dark-button-background);
+	color: var(--dark-red);
+	border: solid var(--dark-peach) 1px;
+	border-radius: 10px;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+}
+
+button:hover {
+	background-color: var(--dark-bg);
+	cursor: pointer;
+}
+
+.github {
+	padding-bottom: 10px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--darker-header-footer);
+	margin-top: auto;
+	font-size: 15px;
+	justify-content: center;
+	align-items: center;
+}
